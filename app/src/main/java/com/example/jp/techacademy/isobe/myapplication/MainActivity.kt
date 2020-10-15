@@ -10,9 +10,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
        val human=Human("メンバ変数から取得",18,"hobby")
        human.say()
-
+       human.think()
 
         val human2=Human("メンバ変数から取得",18,"hobby")
+        human2.say()
         human2.think()
 
 

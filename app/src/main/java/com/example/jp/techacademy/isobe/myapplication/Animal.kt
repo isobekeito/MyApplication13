@@ -1,6 +1,6 @@
 package com.example.jp.techacademy.isobe.myapplication
 
- open class Animal {
+ abstract class Animal {
     var name: String
     var age:Int
 
@@ -14,8 +14,7 @@ package com.example.jp.techacademy.isobe.myapplication
 
 
 
- open fun say(){
+ abstract fun say()
 
     }
 
-}
